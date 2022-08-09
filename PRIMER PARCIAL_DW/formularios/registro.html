@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMACIÓN</title>
+    <link rel="stylesheet" href="../css/diseño.css">
+</head>
+<body>
+
+    <header>
+           <h1> LLENAR FORMULARIO</h1>
+    </header>
+
+    
+<FIELdset>
+    <div>
+		<form action="../php/guardar.php" method = "POST" accept-charset = "utf-8">
+           
+            <LEGENd>PERSONA VACUNADA</LEGENd>
+            <label for="">Codigo</label><br>
+			<input type="text" name="Codigo" id ="Codigo"><br><br>
+			<label for="">Nombre</label><br>
+			<input type="text" name="Nombre" id ="Nombre"><br><br>
+			<label for="">Direccion</label><br>
+			<input type="text" name="Direccion" id ="Direccion"><br><br>
+			<label for="">Municipio</label><br>
+			<input type="text" name="Municipio" id ="Municipio"><br><br>
+			<input type="submit" value="Enviar">
+			<input type="submit" value="Cancelar">
+      
+		</form>	
+   </div>  
+   
+</FIELdset>  
+
+
+<FIELdset>
+    <div>
+    <LEGENd>PERSONA QUE REPORTA</LEGENd>
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Yesica" required><br>
+    <label for="email">Correo Personal:</label><br>
+    <input type="text" id="email" pattern=".+@gmail\.com" size="30" placeholder="micorreo@gmail.com" required><br>
+    <label for="phone">Telefono:</label><br>
+    <input type="text" id="phone" name="phone" pattern="\+[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="+502-1234-5678">
+</div>
+  </FIELdset>
+
+  
+<br>
+<FIELdset>
+    <h1>DATOS DE LA VACUNACIÓN</h1>
+
+<table>
+<tr>
+  <td><strong>Persona</strong></td>
+  <td><strong>1ra. Dosis</strong></td>
+  <td><strong>2da. Dosis</strong></td>
+  <td><strong>3ra. Dosis</strong></td>
+</tr>
+
+<tr>
+  <td>Niños vacunados</td>
+  <td>2</td>
+  <td>5</td>
+  <td>8</td>
+</tr>
+
+<tr>
+  <td>Adultos vacunador</td>
+  <td>20</td>
+  <td>10</td>
+  <td>50</td>
+</tr>
+
+<tr>
+  <td>TOTAL VACUNADOS</td>
+  <td>22</td>
+  <td>15</td>
+  <td>58</td>
+</tr>
+</table>
+
+    </nav>
+
+
+  </FIELdset>
+</br>
+
+</body>
+</html>

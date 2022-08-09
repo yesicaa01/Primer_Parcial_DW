@@ -1,0 +1,116 @@
+header{
+	background-color: blue;
+	text-align:center;
+	color: white;
+	border-radius: 17px;
+	width: 350px;
+	margin-left: 500px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 8px;
+  cursor: pointer;
+}
+
+
+input[type=text]{
+ border: 2px solid red;
+ border-radius: 4px;
+ width:250px;
+ height: 40px;
+}
+
+
+input[type=password]{
+ border: 2px solid red;
+ border-radius: 4px;
+ width:250px;
+ height: 40px;
+}
+
+body {
+  background-color:whitesmoke;
+}
+
+div{
+	margin-left: 550px;
+	margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:deepskyblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+table {
+  background-color: #F08080;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+tbody td {
+  text-align: center;
+}
+
+
+thead {
+  text-align: center;
+  color: white;
+  background-color: #252525;
+  text-shadow: 1px 1px 1px red;
+}
